@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
 const tail = function(actual) {
   actual.shift();
   return actual;
-}
+};
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result, ["Lighthouse", "Labs"]);
