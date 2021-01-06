@@ -5,10 +5,10 @@ const eqArrays = function(a, b) {
         return false;
       } 
     }
-    return true;
   } else {
     return false;
   }
+  return true;
 }; 
 
 const assertArraysEquals = function(a, b) {
