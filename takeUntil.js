@@ -1,11 +1,3 @@
-// the callback should only be provided one value: the item in the array
-
-//collect items from a provided array until the callback provided returns a truthy value
-
-//// falsy values: false, 0, -0, 0n, "", null, undefined, NaN
-
-//return slice of the array with elements taken from the beginning
-
 const takeUntil = function(array, callback) {
   let result = [];
   for (let entry of array) {
