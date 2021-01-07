@@ -25,7 +25,7 @@ const obj1 = { a: "1", b: "2" };
 const obj2 = { b: "2", a: "1" };
 const obj4 = { c: "1",  d: "2" };
 console.log("equal objects round 1" + eqObjects(obj1, obj2)); // => true
-console.log("equal objects round 1" + eqObjects(obj1, obj4)); // => true
+console.log("equal objects round 3" + eqObjects(obj1, obj4)); // => false
 
 const abc = { a: "1", b: "2", c: "3" };
 console.log("equal objects round 2" + eqObjects(obj1, abc)); // => false

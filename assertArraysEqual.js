@@ -13,8 +13,8 @@ const eqArrays = function(a, b) {
 
 const assertArraysEquals = function(a, b) {
   if (eqArrays(a, b)) {
-    console.log(true);
-  } else console.log(false);
+    console.log(`Assertion Passed: ${a} === ${b}`);
+  } else console.log(`Assertion Failed: ${a} !== ${b}`);
 };
 
 console.log(eqArrays([1, 2, 3], [1, 2, 3]));
